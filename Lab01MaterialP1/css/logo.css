@@ -19,7 +19,11 @@ div.cell{
 }
 /* PH logo setting */
 div.honver{
+<<<<<<< HEAD
            background: black;
+=======
+           background: Black;
+>>>>>>> parent of 065dddc (Update logo.css)
            display: block;
            padding: 5px;
        }
