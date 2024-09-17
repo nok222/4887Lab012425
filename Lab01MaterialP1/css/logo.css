@@ -1,0 +1,156 @@
+*{
+    transition-duration:3s;
+}
+/*table setting*/
+div.table {
+    border-collapse:collapse;
+    margin:20%;
+}
+
+div.row{
+    display:table-row;
+    border:solid 3px pink;
+}
+
+div.cell{
+    display:table-cell;
+    padding:10px 15px 15px 10px;
+    border:solid 3px pink;
+}
+/* PH logo setting */
+div.honver{
+           background: Black;
+           display: block;
+           padding: 5px;
+       }
+
+div.hpoint,div.hhub{
+        display:inline-flex;
+        font-family: PHFont;
+        font-size:30px;
+}
+
+div.hpoint{
+    color:white;
+}
+div.hhub{
+         background:orange;
+         border-radius:10%;
+         text-align: center;
+}
+@font-face {
+          font-family: PHFont;
+          src: url(/font/ntailub.ttf);
+}
+
+/*Youtube*/
+
+div.YTblock{
+    background:red;
+    border-radius:15%;
+    width: 60px;
+    height:40px;
+    position: relative;
+    box-shadow: 0px 0px 7px black;
+}
+
+div.Play{
+    background: red;
+    z-index:99;
+    left: 22px;
+    top:10px;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent white;
+    position:absolute;
+    
+}
+
+div.YTblock,div.YTname{
+        display:inline-flex;
+}
+
+div.YTname{
+        font-size:33pt;
+        font-family: YTFont;
+}
+
+@font-face {
+    font-family: YTFont;
+    src: url(/font/kenyancoffeerg.ttf);
+}
+
+/*xiaoMi*/
+div.XMbg{
+    background: #FF6700;
+    width:110px;
+    height:100px;
+    border-radius: 46%;
+    position:relative;
+}
+
+div.M1{
+    background: white;
+    width:50px;
+    height:50px;
+    position:absolute;
+    border-top-right-radius:50%;
+    top:25px;
+    left:20px;
+}
+
+
+div.M2{
+    background: #FF6700;
+    width:30px;
+    height:40px;
+    position:absolute;
+    border-top-right-radius:50%;
+    top:35px;
+    left:28px;
+    z-index:77;
+}
+
+div.M3{
+    background: white;
+    width:10px;
+    height:30px;
+    position:absolute;
+    top:45px;
+    left:35px;
+    z-index:77;
+}
+
+div.I{
+    background: white;
+    width:10px;
+    height:50px;
+    position:absolute;
+    top:25px;
+    left:80px;
+    z-index:77;
+}
+
+/*Facebook*/
+ div.Fblock{
+     background:#4267B2;
+     width:60px;
+     height:60px;
+     border-radius: 25%;
+     position:relative;
+ }
+ 
+ div.F{
+     font-size:51pt;
+     font-family:FBFont;
+     color:white;
+     position:absolute;
+     right:10px;
+     top:1px;
+ }
+
+ @font-face {
+    font-family: FBFont;
+    src: url(/font/KlavikaBoldBold.otf);
+}

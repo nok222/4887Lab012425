@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+       * {
+           transition-duration: 3s;
+           font-size:30px;
+       }
+       /*First Step*/
+       div.samples{
+           font-family: PHFont;
+           align-content: center;
+           padding:50%;
+       }
+      /*=====================*/
+       /*Second Step*/
+      div.vertver,div.honver{
+           background: Black;
+           display: block;
+           padding: 5px;
+       }
+       div.vertver{
+           display:inline-block;
+           margin:18px;
+       }
+       div.honver{
+           display:inline-flex;
+       }
+       /*===================*/
+       /*Third Step*/
+       div.vpoint,div.hpoint{
+           color:white;
+       }
+       div.vhub,div.hhub{
+           background:Orange;
+           border-radius:10%;
+           text-align: center;
+       }
+        /*===================*/
+       @font-face {
+          font-family: PHFont;
+          src: url(./font/ntailub.ttf);
+       }
+       /*Extra*/
+       div.hpoint:hover~div.hhub{
+           background:Yellow;
+           color:white;
+       }
+       div.hpoint:hover{
+           background:Aqua;
+           border-radius:10%;
+           color:black;
+       }
+       /*======================*/
+</style>
+    <meta charset="UTF-8">
+    <title>PH</title>
+</head>
+<body>
+   <div class="samples">
+       <div class="vertver">
+            <div class="vpoint">Git</div>
+            <div class="vhub">pub</div>
+       </div>
+        <div class="honver">
+            <div class="hpoint">Git</div>
+            <div class="hhub">pub</div>
+        </div>
+   </div>
+</body>
+</html>
